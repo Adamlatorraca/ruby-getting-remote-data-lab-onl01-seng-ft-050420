@@ -21,5 +21,6 @@ class GetRequester
     people.collect do |person|
       program["name"]
     end
+  end
 
 end
