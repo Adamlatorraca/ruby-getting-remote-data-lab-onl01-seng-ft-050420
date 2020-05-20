@@ -8,4 +8,5 @@ class GetRequester
 
   def initialize(URL)
     @URL = URL
+  end
 end
