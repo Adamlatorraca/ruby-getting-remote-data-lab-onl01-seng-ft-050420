@@ -20,5 +20,6 @@ class GetRequester
     people = JSON.parse(self.get_response_body)
     people.collect do |person|
       program["name"]
+    end
 
 end
